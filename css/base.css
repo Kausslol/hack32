@@ -1,0 +1,156 @@
+/* Base Styles */
+body {
+    font-family: 'Creepster', 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    color: #e0e0e0;
+    line-height: 1.6;
+    text-shadow: 0 0 3px #000;
+}
+header {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 10;
+    border-bottom: 3px solid #550000;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #000;
+    letter-spacing: 3px;
+    animation: flicker 1.5s infinite;
+}
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+nav a:hover {
+    color: #ff1a1a;
+    text-shadow: 2px 2px 3px #000;
+}
+main {
+    padding: 25px;
+    background: #080808;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.8);
+}
+section {
+    margin-bottom: 50px;
+}
+h2 {
+    color: #ff1a1a;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 3px #000;
+}
+p {
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #000;
+}
+.non-entity-list {
+    list-style-type: none;
+    padding: 0;
+}
+.non-entity {
+    background: #111;
+    padding: 20px;
+    border: 1px solid #444;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.non-entity:hover {
+    transform: scale(1.08);
+    background: #1c1c1c;
+}
+form {
+    background: #111;
+    padding: 25px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0;
+}
+form input[type="submit"] {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+form input[type="submit"]:hover {
+    background: #ff1a1a;
+}
+footer {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.9);
+}
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0.2; }
+}
+/* Darker background and more intense shadows */
+body {
+    background-color: #030303;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+/* More dramatic flicker animation */
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0.1; }
+}
+
+/* Intensify hover effects */
+.non-entity:hover {
+    transform: scale(1.026);
+    background: #1c0000;
+    border-color: #ff0000;
+}
+
+/* Add blood-like border effects */
+header {
+    border-bottom: 3px solid #800000;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
+}
+
+.non-entity-list li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.non-entity {
+    display: block;
+    text-decoration: none;
+    color: #e0e0e0;
+}
