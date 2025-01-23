@@ -1,1 +1,1 @@
-this isn't a serious website and was done 100% by chatgpt. there's absolutely no fucking chance that im spending a week actually coding a website for a stupid prank on a friend. 
+this isn't a serious website and was done 100% by chatgpt. there's absolutely no fucking chance that im spending a week actually coding a website for a stupid prank on a friend. its only uploaded to github for my super duper free subdomain! not only that, but its the easiest way (that i know) to upload a stupid site to a domain/custom subdomain.
